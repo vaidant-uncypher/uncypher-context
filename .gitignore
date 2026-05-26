@@ -1,0 +1,29 @@
+# Local user data
+context.db
+context.db-journal
+context.db-wal
+context.db-shm
+context_backup.db
+context_backups/
+.context.env
+.context_session
+.context-safe.lock/
+*.staged.*
+*.restore.*
+
+# Local vaults / personal data
+Vault/
+vault/
+Obsidian/
+Logseq/
+Startup/
+raw/
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+
+# Temporary files
+tmp/
+.tmp/
