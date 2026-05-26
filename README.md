@@ -18,6 +18,12 @@ wiki, and agent instructions. Compared with broader Obsidian Wiki frameworks,
 this project is intentionally small: one Python CLI, one reliability wrapper,
 and markdown output that any agent can read.
 
+The longer-term direction is org memory: each teammate captures rich local work
+context, then publishes selected synthesized work packets so the team can
+understand what is being built, why decisions happened, what broke, and what is
+blocked without relying only on final commits. See
+[docs/org-memory-architecture.md](docs/org-memory-architecture.md).
+
 ## What You Get
 
 ```text
